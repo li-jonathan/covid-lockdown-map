@@ -45,6 +45,16 @@ header > h1 {
     fill: #A8C9C9;
 }
 
+.information h2 {
+    background-color:#69A381;;
+    margin-left: 950px;
+}
+
+.information p{
+    background-color: #E0D2A8;
+    margin-left: 950px;
+}
+
 /*Make state look bigger if mouse hovering*/
 path:hover {
     stroke: #91b3b3 !important;
