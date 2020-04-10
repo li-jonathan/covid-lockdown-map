@@ -4,7 +4,6 @@ var travel_id = document.getElementById("travel");
 var gather_id = document.getElementById("gather");
 var quarantine_id = document.getElementById("quarantine");
 var duration_id = document.getElementById("duration");
-var testing_id = document.getElementById("testing");
 
 function reset() {
     statename_id.innerHTML = "STATE NAME";
@@ -12,7 +11,6 @@ function reset() {
     gather_id.innerHTML = "Gatherings: ".bold();
     quarantine_id.innerHTML = "Quarantine: ".bold();
     duration_id.innerHTML = "Duration: ".bold();
-    testing_id.innerHTML = "";
 }
 
 function quarantineCheck(check) {
@@ -30,7 +28,6 @@ $("path").click(function(e) {
     gather_id.innerHTML = "Gatherings: ".bold() + $(this).data('g-info');
     quarantine_id.innerHTML = quarantineCheck($(this).data('q-info'));
     duration_id.innerHTML = "Duration: ".bold() + $(this).data('d-info');
-    testing_id.innerHTML = "If you think you have COVID-19, click " + "here.".link($(this).data('t-link'));
 });
 
 /*
