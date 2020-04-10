@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background: #1B7340;
+    padding: 20px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.preface {
+    background-color: #69A381;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.container #usa {
+    display: block;
+    float: left;
+    padding: 20px
+}
+
+.container .information {
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+.container h2, p {
+    padding: 10px;
+}
+
+.state {
+    fill: #A8C9C9;
+}
+
+/*Make state look bigger if mouse hovering*/
+path:hover {
+    stroke: #91b3b3 !important;
+    fill: #91b3b3 !important;
+    stroke-width:3px;
+    cursor: pointer;
+}
+
+#frames{
+    fill: none !important;
+    cursor: default;
+}
