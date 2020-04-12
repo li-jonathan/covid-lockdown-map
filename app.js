@@ -15,23 +15,16 @@ function reset() {
 
 function quarantineCheck(check) {
     if (check == "NA") {
-        return "Quarantine: ".bold() +  "No statewide directive. Please consult the CDC page on " + "Social Distancing, Quarantine, and Isolation.".link("https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html");
+        return "No explicit statewide order. Please consult the CDC page on " + "Social Distancing, Quarantine, and Isolation.".link("https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html");
     } else {
-        return "Quarantine: ".bold() + check;
+        return check;
     }
 }
 
 $("path").click(function(e) {
-    var source = "[" + "source".link($(this).data('source'), '_blank') + "]";
-    statename_id.innerHTML = $(this).data('name') + source.sup();
+    statename_id.innerHTML = $(this).data('name');
     travel_id.innerHTML = "Traveling: ".bold() + $(this).data('t-info');
     gather_id.innerHTML = "Gatherings: ".bold() + $(this).data('g-info');
-    quarantine_id.innerHTML = quarantineCheck($(this).data('q-info'));
+    quarantine_id.innerHTML = "Quarantine: ".bold() + quarantineCheck($(this).data('q-info'));
     duration_id.innerHTML = "Duration: ".bold() + $(this).data('d-info');
 });
-
-/*
-$("path").mouseleave(function(e) {
-    reset();
-});
-*/
