@@ -19,6 +19,7 @@
   "homepage": "https://github.com/li-jonathan/covid-lockdown-map#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "google-spreadsheet": "^2.0.6"
+    "google-spreadsheet": "^2.0.6",
+    "requirejs": "^2.3.6"
   }
 }
