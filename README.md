@@ -12,6 +12,7 @@ Click [here](https://docs.google.com/spreadsheets/d/1dPAVzaMeYQJWw166GW88Z41HJtb
 * nodejs [13.13.0](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 * google-spreadsheet [2.0.6](https://www.npmjs.com/package/google-spreadsheet/v/2.0.6)
 * dotenv [8.2.0](https://www.npmjs.com/package/dotenv)
+* browserify [16.5.1](http://browserify.org/#install)
 
 ## Demo
 Click [here](https://li-jonathan.github.io/covid-lockdown-map/) to see current version of website.
