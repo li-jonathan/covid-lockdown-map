@@ -4,6 +4,9 @@ Map of the United States with information about a state's lockdown orders due to
 ## Description
 This is a web application containing an interactive map of the United States. When a state is clicked on the map, information regarding state lockdown will appear next to the map. User will see information regarding traveling restrictions, gathering regulations, quarantine guidelines, and duration of the state mandate.
 
+## Data
+Click [here](https://docs.google.com/spreadsheets/d/1dPAVzaMeYQJWw166GW88Z41HJtbRnMObIvFYoLckJRY/edit#gid=0) to view Google Spreadsheet of data.
+
 ## Packages
 * npm [6.14.4](https://www.npmjs.com/get-npm)
 * nodejs [13.13.0](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
