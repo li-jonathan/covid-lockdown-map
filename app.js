@@ -13,7 +13,7 @@ function quarantineCheck(check) {
     }
 }
 
-$("path").click(function(e) {
+$("path").click( function(e) {
     statename_id.innerHTML = $(this).data('name');
     travel_id.innerHTML = "Traveling: ".bold() + $(this).data('t-info');
     gather_id.innerHTML = "Gatherings: ".bold() + $(this).data('g-info');

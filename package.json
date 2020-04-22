@@ -20,6 +20,9 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "google-spreadsheet": "^2.0.6",
-    "requirejs": "^2.3.6"
+    "promisify": "0.0.3",
+    "uniq": "^1.0.1",
+    "util": "^0.12.2",
+    "util.promisify": "^1.0.1"
   }
 }
