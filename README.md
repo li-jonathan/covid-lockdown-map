@@ -18,4 +18,4 @@ Click [here](https://docs.google.com/spreadsheets/d/1dPAVzaMeYQJWw166GW88Z41HJtb
 ## Demo
 Click [here](https://li-jonathan.github.io/covid-lockdown-map/) to see current version of website.
 
-![Screenshot of map](https://i.imgur.com/RIJViJU.png)
+![Screenshot of map](https://github.com/li-jonathan/covid-lockdown-map/blob/master/demo.gif)
