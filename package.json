@@ -4,6 +4,7 @@
   "description": "Map of the United States with information about a state's lockdown orders due to the Coronavirus.",
   "main": "app.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "google-spreadsheet": "^3.0.11",
     "jquery": "^3.5.0"
   },
