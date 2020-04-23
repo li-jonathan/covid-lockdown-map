@@ -96471,29 +96471,21 @@ function updateData(state) {
 
 /**
  * 
- * @param {*} statename 
+ * @param {*} id 
  */
-async function accessData(statename) {
+async function accessData(id) {
     await doc.useServiceAccountAuth(require('./client_secret.json'));
     await doc.loadInfo();
     const sheet = doc.sheetsByIndex[0]; 
-
-    // TODO: very slow. find new method for getting a row by name
     const rows = await sheet.getRows({limit: 51});
-    for (var i = 0; i < 52; i++) {
-        if (rows[i].name == statename) {
-            updateData(rows[i]);
-            break;
-        }
-    }
-
+    updateData(rows[id]);
 }
 
 /**
  * 
  */
 $("path").click(function(e) {
-    var name = $(this).data('name');
-    accessData(name);
+    var state_id= $(this).data('id');
+    accessData(state_id);
 });
 },{"./client_secret.json":173,"google-spreadsheet":238,"jquery":253}]},{},[317]);
