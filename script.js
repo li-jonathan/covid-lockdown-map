@@ -5,25 +5,12 @@ const $ = require('jquery');
 var statename_id = document.getElementById("statename");
 var travel_id = document.getElementById("travel");
 var gather_id = document.getElementById("gather");
-var quarantine_id = document.getElementById("quarantine");
+var businesses_id = document.getElementById("businesses");
 var duration_id = document.getElementById("duration");
 
 /**
  * @author: Jonathan Li
  */
-
-/**
- * 
- * @param {*} check 
- */
-function quarantineCheck(check) {
-    if (check == "NA") {
-        return "No explicit statewide order. Please consult the CDC page on " 
-        + "Social Distancing, Quarantine, and Isolation.".link("https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html");
-    } else {
-        return check;
-    }
-}
 
 /**
  * 
@@ -33,7 +20,7 @@ function updateData(state) {
     statename_id.innerHTML = state.name
     travel_id.innerHTML = "Traveling: ".bold() + state.travel;
     gather_id.innerHTML = "Gatherings: ".bold() + state.gathering;
-    quarantine_id.innerHTML = "Quarantine: ".bold() + quarantineCheck(state.quarantine);
+    businesses_id.innerHTML = "Businesses: ".bold() + state.businesses;
     duration_id.innerHTML = "Duration: ".bold() + state.duration;
 }
 
