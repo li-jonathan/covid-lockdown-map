@@ -2,9 +2,12 @@
 Map of the United States with information about a state's lockdown orders due to the Coronavirus.
 
 ## Description
-This is a web application containing an interactive map of the United States. When a state is clicked on the map, information regarding state lockdown will appear next to the map. User will see information regarding traveling restrictions, gathering regulations, quarantine guidelines, and duration of the state mandate.  
+This is a web application containing an interactive map of the United States. When a state is clicked on the map, information regarding state lockdown will appear next to the map. User will see information regarding traveling restrictions, gathering regulations, business opening guidelines, and duration of the state mandate.  
 
 Utilizes the Google Spreadsheet API to retrieve data from a Google Sheet containing information about all states.
+
+## Functionality
+Partial data included to show website functionality. View Google Spreadsheet below to view how data is organized and can be updated.</br>*Data will not be completed nor further updated, as website functionality (usage of interactive map and data retrieval using Google API) is complete.
 
 ## Data
 Click [here](https://docs.google.com/spreadsheets/d/1dPAVzaMeYQJWw166GW88Z41HJtbRnMObIvFYoLckJRY/edit#gid=0) to view Google Sheet of data.
