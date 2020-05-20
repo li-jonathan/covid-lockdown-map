@@ -2,7 +2,13 @@
   "name": "covid-lockdown-map",
   "version": "1.0.0",
   "description": "Map of the United States with information about a state's lockdown orders due to the Coronavirus.",
-  "main": "script.js",
+  "main": "index.js",
+  "dependencies": {
+    "google-spreadsheet": "^3.0.11",
+    "jquery": "^3.5.0",
+    "nvm": "^0.0.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/li-jonathan/covid-lockdown-map/issues"
   },
-  "homepage": "https://github.com/li-jonathan/covid-lockdown-map#readme",
-  "dependencies": {
-    "google-spreadsheet": "^2.0.6",
-    "jquery": "^3.5.1"
-  }
+  "homepage": "https://github.com/li-jonathan/covid-lockdown-map#readme"
 }
