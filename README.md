@@ -1,6 +1,9 @@
 # COVID-19 Lockdown Map
 Map of the United States with information about a state's lockdown orders due to the Coronavirus.
 
+## Scrapped due to unresolved bug
+New Browserify bundling bug that exposes the API key. Code works server side but does not work client side without having an exposed API.
+
 ## Description
 This is a web application containing an interactive map of the United States. When a state is clicked on the map, information regarding state lockdown will appear next to the map. User will see information regarding traveling restrictions, gathering regulations, business opening guidelines, and duration of the state mandate.  
 
